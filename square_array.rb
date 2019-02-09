@@ -3,4 +3,4 @@ def square_array(array)
   array.each {|number| number = number ** 2}
 end
 
-square_array(Array.new(3))
+square_array([2, 3, 4])
